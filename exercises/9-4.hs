@@ -15,3 +15,11 @@
 -- Num a -> Num a
 -- [a] -> Bool
 -- (a -> a) -> a -> a
+
+
+--Chapter 4
+
+test :: [Char] -> Bool
+-- use : as list concatenation need parenthesis
+test ('a':_) -> True
+test _ -> False
